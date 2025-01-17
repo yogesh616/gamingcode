@@ -175,13 +175,14 @@
 
 .games_img p {
     position: absolute;
-    top: 79%;
+    top: 68%;
     width: 100%;
-    font-size: 0.7rem;
+    font-size: 10px;
+    height: 33px;
     padding: 4px 0;
     text-align: center;
     color: white;
-    border-radius: 5px;
+    border-radius: 0px;
     background-color: rgb(176, 80, 14);
 }
 

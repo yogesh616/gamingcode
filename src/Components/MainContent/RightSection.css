@@ -6,5 +6,6 @@
 @media screen and (max-width: 1024px){
     .rightSection_container{
         width: 100%;
+        width: 79%;
     }
 }
