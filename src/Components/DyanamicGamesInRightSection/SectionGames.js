@@ -1,22 +1,40 @@
 const politics = [  {  match: "Assembly Election 2024", date: "25/11/2024", time: " 12:01:00 AM"   }  ];
+
+
+
 const cricket = [
-    { match: "South Africa v Sri Lanka", date: "05/12/2024", time: "02:00:00 PM" },
-    { match: "Australia v India", date: "06/12/2024", time: "09:30:00 AM" },
-    { match: "Western Province v Knights", date: "06/12/2024", time: "01:30:00 PM" },
-    { match: "Karnali Yaks v Biratnagar Kings", date: "07/12/2024", time: "01:00:00 PM" },
-    { match: "Bangladesh Women v Ireland Women", date: "07/12/2024", time: "01:30:00 PM" },
-    { match: "TKR XI v JT XI", date: "07/12/2024", time: "02:35:00 PM" },
-    { match: "Chennai Super Kings T10 v Super Giants T10", date: "07/12/2024", time: "03:05:00 PM" },
-    { match: "India T10 v West Indies T10", date: "07/12/2024", time: "03:10:00 PM" },
-    { match: "Brisbane Heat T10 v Adelaide Strikers T10", date: "07/12/2024", time: "03:15:00 PM" },
-    { match: "Test A v Test B", date: "05/12/2024", time: "12:00:00 AM" },
-    { match: "New Zealand v England", date: "06/12/2024", time: "03:30:00 AM" },
-    { match: "Rajasthan Royals XI v Lucknow Super Giants XI", date: "07/12/2024", time: "03:30:00 PM" },
-    { match: "Stallions v Panthers", date: "07/12/2024", time: "04:00:00 PM" },
-    { match: "Australia Women v India Women", date: "08/12/2024", time: "05:15:00 AM" },
-    { match: "Bangladesh Under-19 v India Under-19", date: "08/12/2024", time: "10:30:00 AM" },
-    { match: "South Africa Women v England Women", date: "08/12/2024", time: "01:30:00 PM" },
-    { match: "West Indies v Bangladesh", date: "08/12/2024", time: "07:00:00 PM" },
+    { match: "Ball by Ball", date: "", time: "", route: '/BallByBall' },
+    { match: "Twenty20 Big Bash", date: "14/12/2024", time: "13:45:00 ", route: "/Twenty20_Big_Bash" },
+   
+
+    { match: "Punjab Kings XI v Mumbai Indians XI ", date: "17/01/2025", time: "16:35:00", route: "/PunjabKingsXIvMumbaiIndiansXI"},
+    { match: "West Indies T10 v Pakistan T10 ", date: "17/01/2025", time: "16:55:00" },
+    { match: "BT XI v SLZ XI ", date: "17/01/2025", time: "17:10:00" },
+    { match: "India T10 v New Zealand T10", date: "17/01/2025", time: "17:30:00" },
+    { match: "Pakistan v West Indies ", date: "17/01/2025", time: "10:00:00"},
+    { match: "New Zealand T10 v Australia T10 ", date: "17/01/2025", time: "17:45:00"},
+    { match: "Sri Lanka T10 v Bangladesh T10 ", date: "17/01/2025", time: "18:00:00"},
+    { match: "Rangpur Riders v Chittagong Kings ", date: "17/01/2025", time: "18:30:00" },
+    { match: "Lucknow Super Giants T10 v Gujarat Titans T10", date: "17/01/2025", time: "18:45:00"},
+    { match: "Sharjah Warriors v Dubai Capitals", date: "17/01/2025", time: "20:00:00" },
+
+    { match: "New Zealand T10 v South Africa T10", date: "17/01/2025", time: "20:00:00" },
+    { match: "Durban Super Giants v Sunrisers Eastern Cape", date: "17/01/2025", time: "21:00:00" },
+    { match: "Surrey Kings v Middlesex Titans", date: "17/01/2025", time: "21:30:00"},
+    { match: "Cornwall Warriors v Surrey Royals  ", date: "18/01/2025", time: "00:00:00" },
+    { match: "Otago Sparks Women v Wellington Blaze Women ", date: "18/01/2025", time: "03:10:00"},
+    { match: "Otago Volts v Wellington Firebirds ", date: "18/01/2025", time: "06:55:00"},
+    { match: "Melbourne Renegades v Brisbane Heat  ", date: "18/01/2025", time: "11:30:00"},
+    { match: "Karnataka v Vidarbha ", date: "18/01/2025", time: "13:30:00"},
+    { match: "Perth Scorchers v Adelaide Strikers ", date: "18/01/2025", time: "14:45:00"},
+    { match: "Desert Vipers v Abu Dhabi Knight Riders ", date: "18/01/2025", time: "15:30:00"},
+    { match: "Pretoria Capitals v Paarl Royals ", date: "18/01/2025", time: "16:30:00"},
+    { match: "Gulf Giants v Dubai Capitals ", date: "18/01/2025", time: "19:30:00"},
+    { match: "Mi Cape Town v Joburg Super Kings ", date: "18/01/2025", time: "21:00:00"},
+    { match: "Fortune Barishal v Chittagong Kings", date: "19/01/2025", time: "13:00:00"},
+    { match: "Melbourne Stars v Hobart Hurricanes", date: "19/01/2025", time: "13:45:00"},
+    { match: "Durbar Rajshahi v Khulna Tigers", date: "19/01/2025", time: "18:00:00"}
+
   ];
 
   const football = [

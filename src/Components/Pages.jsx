@@ -154,7 +154,9 @@ function Pages() {
               {Object.keys(selectedData)
                 .filter((key) => key.startsWith("data"))
                 .map((key, idx) => (
-                  <div className="set_selectedData" key={key}>
+                  <div className="set_selectedData" key={key}
+                 
+                  >
                     <div className="set_names_icons">
                       <div className="data_names">
                         <span>{selectedData[key]}</span>
@@ -200,12 +202,16 @@ function Pages() {
         <div className="selected_category_display">
           {selectedCategory && gamesData[selectedCategory]?.length > 0 ? (
             gamesData[selectedCategory].map((data, idx) => (
-              <div className="set_data" key={idx}>
+              <div className="set_data" key={idx}
+              onClick={() => navigate(data.route)}
+              >
                 <div className="set_names_icons">
                   <div className="data_names">
-                    <span style={{ cursor: "pointer" }}>
+                   {
+                     <span style={{ cursor: "pointer" }}>
                       {data.match} / {data.date} / {data.time}
                     </span>
+                   }
                   </div>
                   <div className="set_dataIcons">
                     <div className="active_nonActive_icons">

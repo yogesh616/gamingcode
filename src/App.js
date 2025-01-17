@@ -90,6 +90,9 @@ import DusKaDum from './Routes/DusKaDum.jsx'
 import CardMeter1 from './Routes/CardMeter1.jsx'
 
 
+//cricket inner games 
+import Twenty20_Big_Bash from './CricketInnerGames/Twenty20_Big_bash.jsx'
+import PunjabKingsXIvMumbaiIndiansXI from './CricketInnerGames/PunjabKingsXIvMumbaiIndiansXI.jsx'
 
 
 
@@ -215,10 +218,14 @@ const App = () => {
       <Route path="/DusKaDum" element={<DusKaDum />} />
       <Route path="/CardMeter1" element={<CardMeter1 />} />
      
+    
 
+    { /* cricket inner games routes */}
 
-
-
+    <Route path="/Twenty20_Big_Bash" element={<Twenty20_Big_Bash />} />
+    <Route path="/PunjabKingsXIvMumbaiIndiansXI" element={<PunjabKingsXIvMumbaiIndiansXI />} />
+    
+  
 
 
       </Routes>
